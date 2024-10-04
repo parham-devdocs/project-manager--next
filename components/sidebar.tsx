@@ -5,7 +5,7 @@ import { FiLogOut } from "react-icons/fi";
 
 export default function Sidebar() {
   return (
-    <div className=" flex flex-col justify-between py-8 bg-white px-8">
+    <div className=" flex flex-col justify-between py-8 bg-white px-8 min-h-screen">
       <Logo />
       <Buttons />
       <Profile />
