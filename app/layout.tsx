@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {Inter,Poppins} from "next/font/google";
 import "./globals.css";
+import  Sidebar  from '@/components/sidebar';
 
 const inter=Inter({subsets:["latin"]})
 const poppins = Poppins({
@@ -22,9 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable}  antialiased`}
-      >
+      <body className={`${poppins.variable}  antialiased flex`}>
+        <Sidebar />
+
         {children}
       </body>
     </html>
