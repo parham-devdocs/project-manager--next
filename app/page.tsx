@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Sidebar from "@/components/sidebar";
 
 export default function Home() {
   return (
     <div className=" flex w-full h-screen poppins">
-      This is a project manager app
+     <Sidebar/>
     </div>
   );
 }
