@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable}  antialiased flex`}>
+      <body className={`${poppins.variable}  antialiased flex overflow-auto`}>
         <Sidebar />
 
         {children}

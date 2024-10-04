@@ -19,7 +19,7 @@ const Logo = () => {
 
 const Buttons = () => {
     return (
-      <div className=" space-y-4">
+      <div className=" space-y-8">
         <AiOutlineProduct  size={25} className=" text-blue-600 cursor-pointer" />
         <BsLayoutSplit size={25} className=" text-slate-300 cursor-pointer"/>
         <FiLogOut size={25} className=" text-slate-300 cursor-pointer"/>
