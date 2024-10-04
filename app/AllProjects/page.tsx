@@ -1,12 +1,13 @@
 import AllProjectsHeader from "@/components/AllProjects/Header";
 import AllProjectsSection from "@/components/AllProjects/mainSection";
+import StatsRightSidebar from "@/components/AllProjects/StatsRightSidebar";
 import AllProjectsSubHeader from "@/components/AllProjects/SubHeader";
 
 function page() {
   return (
     <div className=" bg-slate-50 w-full min-h-screen flex">
           <AllProjectsArea />
-          
+          <StatsRightSidebar/>
     </div>
   );
 }

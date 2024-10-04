@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import {Inter,Poppins} from "next/font/google";
+import {Inter,Poppins,Roboto} from "next/font/google";
 import "./globals.css";
 import  Sidebar  from '@/components/sidebar';
 
 const inter=Inter({subsets:["latin"]})
-const poppins = Poppins({
+const poppins = Roboto({
   subsets: ["latin"],
-    variable: "--font-poppins",
-    weight:["100","200","300","400","500","600","700","800","900"]
+    variable: "--font-roboto",
+    weight:["100","300","400","500","700"]
   
 });
 
