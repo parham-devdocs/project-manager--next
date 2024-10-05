@@ -2,7 +2,7 @@ import { MdSplitscreen } from "react-icons/md";
 
 export default function StatsRightSidebar() {
   return (
-    <div className=" flex flex-col items-center justify-center mx-auto gap-8">
+    <div className=" hidden md:flex flex-col items-center justify-center mx-auto gap-8">
       <Header />
       <CircularChart />
       <ProjectsCompletedLabels />

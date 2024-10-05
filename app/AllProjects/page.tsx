@@ -14,7 +14,7 @@ function page() {
 
 function AllProjectsArea() {
   return (
-    <div className=" w-[78%] p-10 flex-col gap-3">
+    <div className=" w-full md:w-[78%] p-10 flex-col gap-3">
       <AllProjectsHeader />
           <AllProjectsSubHeader />
           <AllProjectsSection/>

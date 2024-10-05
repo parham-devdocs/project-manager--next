@@ -1,3 +1,4 @@
+import TasksList from "@/components/AllTasks/MainSection";
 import TasksHeader from "@/components/AllTasks/TasksHeader";
 import  TasksSubHeader  from "@/components/AllTasks/TasksSubHeader"
 export default function AllTasksContainer() {
@@ -5,7 +6,8 @@ export default function AllTasksContainer() {
         <div className=" bg-slate-50 w-full p-10">
 
             <TasksHeader />
-            <TasksSubHeader/>
+            <TasksSubHeader />
+            <TasksList/>
         </div>
     )
 }
